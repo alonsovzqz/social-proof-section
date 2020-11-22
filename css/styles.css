@@ -13,6 +13,66 @@ body {
   font-size: 15px;
 }
 
+.container {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  color: var(--very-dark-magenta);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p {
+  color: var(--very-dark-magenta);
+}
+
+.rate-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-grayish-magenta);
+  padding: 1em 2em;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.rate-card .start-container {
+  margin-bottom: 10px;
+}
+
+.rate-card .start-container img {
+  margin-right: 5px;
+}
+
+.rate-card > p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* Utilities */
+/* Spacing */
+.py-1 {
+  padding: 1em 0;
+}
+
+.py-2 {
+  padding: 1.5em 0;
+}
+
+.py-3 {
+  padding: 2em 0;
+}
+
+/* Text */
+.text-center {
+  text-align: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
