@@ -22,9 +22,9 @@ body {
   justify-content: space-around;
   align-items: center;
   min-height: 100vh;
-  background-image: url("../images/bg-pattern-top-mobile.svg");
-  background-repeat: no-repeat;
-  background-position: top left;
+  background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom center;
 }
 
 .container {
@@ -189,7 +189,7 @@ header p {
   }
 
   header {
-    width: 50%;
+    width: 38%;
   }
 
   header h1 {
@@ -239,9 +239,9 @@ header p {
   /* Testimonials */
   .testimonials {
     width: 100%;
-    min-height: 300px;
+    min-height: 320px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .user-card {
