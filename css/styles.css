@@ -176,7 +176,10 @@ header p {
 
 @media (min-width: 768px) {
   body {
-    background-image: url("../images/bg-pattern-top-desktop.svg");
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom center;
+    background-size: 50%, 50%;
   }
 
   .container {
